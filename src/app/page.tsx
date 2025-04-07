@@ -198,7 +198,9 @@ export default function HomePage() {
                   <div className="p-4">
                     <div className="flex items-center justify-between">
                       <h3 className="font-bold">{dish.title}</h3>
-                      <span className="text-primary">{dish.price}</span>
+                      <span className="font-playfair text-primary">
+                        {dish.price}
+                      </span>
                     </div>
                     <p className="mt-2 text-sm text-neutral-500">
                       {dish.description}
