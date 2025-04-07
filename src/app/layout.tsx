@@ -7,24 +7,11 @@ import {
   Prata,
 } from "next/font/google";
 import "./globals.css";
+
 const prata = Prata({
   weight: ["400"],
   subsets: ["latin"],
   variable: "--font-prata",
-});
-const lato = Lato({
-  variable: "--font-lato",
-  weight: ["400", "700"],
-  subsets: ["latin"],
-});
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
 });
 
 const playfair = Playfair_Display({
@@ -45,9 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${prata.variable} ${playfair.variable} antialiased`}
-      >
+      <body className={`${prata.variable} ${playfair.variable} antialiased`}>
         {children}
       </body>
     </html>

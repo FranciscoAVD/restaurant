@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { Clock, MapPin, Phone, Calendar, Menu } from "lucide-react";
+import { Clock, MapPin, Phone, Menu } from "lucide-react";
 import hero from "/public/hero-bg.jpg";
 import {
   Sheet,
@@ -231,10 +231,10 @@ export default function HomePage() {
                   The Experience
                 </h2>
                 <p className="text-neutral-400">
-                  At Il Baccalao, we believe dining is more than just food—it's
-                  an experience. Our restaurant offers an intimate atmosphere
-                  with warm lighting, authentic Spanish décor, and attentive
-                  service.
+                  At Il Baccalao, we believe dining is more than just
+                  food—it&apos;s an experience. Our restaurant offers an
+                  intimate atmosphere with warm lighting, authentic Spanish
+                  décor, and attentive service.
                 </p>
                 <p className="text-neutral-400">
                   Every Thursday evening, enjoy live flamenco music as you dine.
