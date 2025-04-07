@@ -1,11 +1,5 @@
 import type { Metadata } from "next";
-import {
-  Geist,
-  Geist_Mono,
-  Lato,
-  Playfair_Display,
-  Prata,
-} from "next/font/google";
+import { Playfair_Display, Prata } from "next/font/google";
 import "./globals.css";
 
 const prata = Prata({
