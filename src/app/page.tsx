@@ -363,6 +363,7 @@ export default function HomePage() {
               &copy; {new Date().getFullYear()} Il Baccalao. All rights
               reserved.
             </p>
+            <p>Developed by Victoriano LLC</p>
           </div>
         </div>
       </footer>
